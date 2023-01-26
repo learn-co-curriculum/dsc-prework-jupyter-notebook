@@ -4,7 +4,7 @@
 
 Welcome to your first Code Lesson!
 
-*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas + IllumiDesk, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you're finished*
+*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas + Saturn Cloud, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you're finished*
 
 ## Objectives
 You will be able to:
@@ -24,15 +24,11 @@ Jupyter is a web application that allows you to create and work with documents t
 
 ## Running Jupyter Notebooks
 
-Eventually you will set up your local development environment and run the server behind Jupyter Notebook on your personal computer, but for now all you need to worry about is clicking the "Load ... in a new window" button like you did to open this lesson:
+Eventually you will set up your local development environment and run the server behind Jupyter Notebook on your personal computer, but for now all you need to worry about is clicking the "Click Here to Launch Lesson" button like you did to open this lesson:
 
-![Load in a new window button](images/open_in_illumidesk.png)
+![Load in a new window button](images/open_in_saturncloud.png)
 
-This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in IllumiDesk for the duration of the program, with your changes saved.
-
-If you want to see a list of all of your copied notebooks, click on the IllumiDesk logo in the upper left corner of the page:
-
-<img src="images/illumidesk_logo.png" alt="IllumiDesk logo" style="width: 125px" />
+This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Saturn Cloudfor the duration of the program, with your changes saved.
 
 
 ## Introduction to Cells
