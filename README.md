@@ -28,7 +28,7 @@ Eventually you will set up your local development environment and run the server
 
 ![Load in a new window button](images/open_in_saturncloud.png)
 
-This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Saturn Cloudfor the duration of the program, with your changes saved.
+This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Saturn Cloud for the duration of the program, with your changes saved.
 
 
 ## Introduction to Cells
