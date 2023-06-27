@@ -43,7 +43,7 @@ When you're done editing this cell, go ahead and press `shift + enter`.
 
 As we just saw, when you are in a cell writing code or notes, the cell is highlighted in **green** meaning you are in **edit mode** (AKA insert mode). 
 
-Alternatively, if you are not in edit mode, the cell is highlighted in **blue** inidicating that you are in **command mode** (AKA escape mode).
+Alternatively, if you are not in edit mode, the cell is highlighted in **blue** indicating that you are in **command mode** (AKA escape mode).
 
 #### Edit Mode
 Edit mode is the standard mode for editing cells, whether it's writing code or notes.
@@ -112,7 +112,7 @@ To add a new cell using keyboard shortcuts:
     * *Remember you can tell you are in edit mode when you have a green border around the cell*
     * To get out of edit mode, press `shift + enter` or `esc`
     * You will no longer see a cell bordered in green 
-* Then press the letter `b` to create a new cell 
+* Then press the letter `a` to create a new cell above or `b` to create a new cell below
 
 Anytime you create a new cell, say with the shortcut key `b`, the new cell will default to type Code.  You can switch to command mode and press the letter `m` to change the cell from Code to Markdown.
 
