@@ -4,7 +4,7 @@
 
 Welcome to your first Code Lesson!
 
-*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas + Saturn Cloud, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you're finished*
+*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas and Saturn Cloud, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you are finished*
 
 ## Objectives
 You will be able to:
@@ -14,7 +14,8 @@ You will be able to:
 
 ## Jupyter Notebooks
 
-![Jupyter Notebook logo](images/jupyter_logo.png)
+![Jupyter Notebook logo](https://curriculum-content.s3.amazonaws.com/data-science/images/jupyter_logo.png
+)
 
 The document you are currently reading is a Jupyter Notebook!
 
@@ -26,7 +27,8 @@ Jupyter is a web application that allows you to create and work with documents t
 
 Eventually you will set up your local development environment and run the server behind Jupyter Notebook on your personal computer, but for now all you need to worry about is clicking the "Click Here to Launch Lesson" button like you did to open this lesson:
 
-![Load in a new window button](images/open_in_saturncloud.png)
+![Load in a new window button](https://curriculum-content.s3.amazonaws.com/data-science/images/open_in_saturncloud.png
+)
 
 This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Saturn Cloud for the duration of the program, with your changes saved.
 
@@ -63,13 +65,15 @@ To enter command mode from enter mode, you can:
 
 You can perform command mode commands with keyboard shortcuts, or in a more cumbersome (and time consuming) manner by using the various headers in the menu bar at top.
 
-<img src="images/jupyter_menu.png" width="800">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/jupyter_menu.png
+" width="800">
 
 #### Keyboard Shortcuts
 
 You can see a full list of shortcuts available in command and edit mode under the help menu.
 
-<img src="images/jupyter_help_menu.png" width="800">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/jupyter_help_menu.png
+" width="800">
 
 There is (of course) also a shortcut to view shortcuts! Press the key `h` while in escape mode to view the menu for all of Jupyter's shortcuts.
 
@@ -91,7 +95,8 @@ This is a Code cell without valid Python code so you will see an error
 Notice that this cell has a little note that says `In [ ]:` before you run it, and then is filled with a number after you run it, e.g. `In [1]`. This is important, as it tells you in what order the cell blocks were run (which can affect how a program runs).
 
 You may also notice that other cells, such as this one, do not have the `In [ ]:` label as with the code cells. This is because this cell is formatted as **Markdown** rather than Code.  You can see (and change) what type of cell it is by clicking the dropdown menu at the top:
-<img src="images/jupyter_notebook_cell_type_dropdown.png" width="750">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/jupyter_notebook_cell_type_dropdown.png
+" width="750">
 
 A cell must either be of type Markdown or of type Code, in which case all of the contents must be valid Python.  It cannot be both.
 
@@ -112,7 +117,7 @@ To add a new cell using keyboard shortcuts:
     * *Remember you can tell you are in edit mode when you have a green border around the cell*
     * To get out of edit mode, press `shift + enter` or `esc`
     * You will no longer see a cell bordered in green 
-* Then press the letter `a` to create a new cell above or `b` to create a new cell below
+* Then press the letter `a` to create a new cell above or `b` to create a new cell below 
 
 Anytime you create a new cell, say with the shortcut key `b`, the new cell will default to type Code.  You can switch to command mode and press the letter `m` to change the cell from Code to Markdown.
 
@@ -287,7 +292,8 @@ When code is loaded into a Jupyter Notebook, we can also use **tab completion** 
 1. In the cell below, navigate your cursor to the right of **`math.`**
 2. Press `tab` to see a list of available methods/attributes
 
-![all math methods](images/math_methods.png)
+![all math methods](https://curriculum-content.s3.amazonaws.com/data-science/images/math_methods.png
+)
 
 
 ```python
@@ -295,7 +301,8 @@ math.
 ```
 
 You can also start typing to subset the list of available commands:
-![math methods that start with p](images/math_p_methods.png)
+![math methods that start with p](https://curriculum-content.s3.amazonaws.com/data-science/images/math_p_methods.png
+)
 
 
 ```python
@@ -306,7 +313,8 @@ math.p
 
 Even better, you can even see how a method works by pulling up its **docstring**! You can do this by writing `?` after the method and running the cell.
 
-![random.randrange docstring](images/randrange_docstring.png)
+![random.randrange docstring](https://curriculum-content.s3.amazonaws.com/data-science/images/randrange_docstring.png
+)
 
 Try it out by running the following cell:
 
@@ -317,7 +325,8 @@ random.randrange?
 
 Alternatively, you can pull up a preview of the docstring by pressing **shift+tab within the parentheses of a method**
 
-![random.randrange docstring preview](images/randrange_docstring_preview.png)
+![random.randrange docstring preview](https://curriculum-content.s3.amazonaws.com/data-science/images/randrange_docstring_preview.png
+)
 
 Try it out here:
 
@@ -347,7 +356,8 @@ We also used two built in Python functions:
 
 In general, **Python has reserved keywords** for built in functions like this. **Be sure to not name your variables any of these!**
 
-<img src="images/python_built_in_functions.png" width="700">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/python_built_in_functions.png
+" width="700">
 
 You can also check what type of object something is using the built in `type()` method. This can be useful when determining how to work with an object that you are unfamiliar with.
 
@@ -369,13 +379,15 @@ As a reminder, this is not an assignment you need to turn in, just make sure you
 <table>
     <tr>
         <td>
-            <img src="images/mark_as_done.png" alt="mark as done button"/>
+            <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/mark_as_done.png
+" alt="mark as done button"/>
         </td>
         <td>
             -->
         </td>
         <td>
-            <img src="images/done.png" alt="done button" />
+            <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/done.png
+" alt="done button" />
         </td>
     </tr>
 </table>
