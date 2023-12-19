@@ -1,10 +1,10 @@
-# Your First Jupyter Notebook!
+# Your First Jupyter Notebook
 
 ## Introduction
 
-Welcome to your first Code Lesson!
+Welcome to your first Code Lesson
 
-*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas and Saturn Cloud, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you are finished*
+*Reminder: Code Lessons are mainly asking you to read and execute code, not to write it yourself. They are categorized as "Assignments" due to the naming conventions of Canvas, but there is nothing you need to turn in or submit. Just make sure you click the "Mark as done" button in Canvas (so it says "Done") when you are finished*.
 
 ## Objectives
 You will be able to:
@@ -17,7 +17,7 @@ You will be able to:
 ![Jupyter Notebook logo](https://curriculum-content.s3.amazonaws.com/data-science/images/jupyter_logo.png
 )
 
-The document you are currently reading is a Jupyter Notebook!
+The document you are currently reading is a Jupyter Notebook.
 
 Jupyter Notebooks (historically called IPython Notebooks) will be our primary tool for curriculum delivery, and you will use and create many Jupyter Notebooks in the course of this program and in your career as a data scientist.
 
@@ -25,12 +25,9 @@ Jupyter is a web application that allows you to create and work with documents t
 
 ## Running Jupyter Notebooks
 
-Eventually you will set up your local development environment and run the server behind Jupyter Notebook on your personal computer, but for now all you need to worry about is clicking the "Click Here to Launch Lesson" button like you did to open this lesson:
+Eventually you will set up your local development environment and run the server behind Jupyter Notebook on your personal computer, but for now all you need to worry about is opening this notebook in [Google Colab](https://colab.research.google.com/) like you did for this notebook.
 
-![Load in a new window button](https://curriculum-content.s3.amazonaws.com/data-science/images/open_in_saturncloud.png
-)
-
-This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Saturn Cloud for the duration of the program, with your changes saved.
+This creates a copy of the notebook from our curriculum for your personal use, which you are free to edit and modify. Your copied notebook will be stored in Colab, with your changes saved.
 
 
 ## Introduction to Cells
@@ -161,15 +158,10 @@ name
 ```
 
 
-    ---------------------------------------------------------------------------
 
-    NameError                                 Traceback (most recent call last)
 
-    <ipython-input-1-9bc0cb2ed6de> in <module>
-    ----> 1 name
-    
+    'bob'
 
-    NameError: name 'name' is not defined
 
 
 To execute or run a cell, we must press `shift + enter` on that cell (or when that cell is selected). Upon running a cell, Python will show the the last line of the cell's return value underneath.  Let's run the cell below to see this:
@@ -179,6 +171,13 @@ To execute or run a cell, we must press `shift + enter` on that cell (or when th
 age = 14
 age
 ```
+
+
+
+
+    14
+
+
 
 As you can see the variable `age` is set to 14, so when the cell is run `14` is displayed underneath.
 
@@ -196,6 +195,13 @@ Notice, even after pressing shift + enter on the code above, nothing is displaye
 hometown
 ```
 
+
+
+
+    'NYC'
+
+
+
 > Yes, it's pretty confusing, but the important thing to take away is that we need to run our cells with Python code by pressing `shift + enter` if we want Python to read our variables and functions and remember them later on. Remember, in the case of assignment, the return value is `None`, which does not show an output. We can see this more concretely below by running the cell below:
 
 
@@ -209,6 +215,9 @@ If you want to print a certain sentence, you need to use the command `print()` a
 ```python
 print('I want to print this sentence about running Python code')
 ```
+
+    I want to print this sentence about running Python code
+
 
 As you can see, running the code above printed text to the screen. As we'll cover in more depth later, `print` is an example of a "function". Functions are blocks of reusable code that execute a particular task. When functions are associated with a specific object they are called "methods." Don't worry about the details right now, you will learn more about functions and methods later.
 
@@ -241,6 +250,13 @@ random_number
 ```
 
 
+
+
+    0.6394267984578837
+
+
+
+
 ```python
 # create a list of 5 random floating point numbers
 random_numbers = [random.random()*10 for x in range(5)]
@@ -248,9 +264,27 @@ random_numbers
 ```
 
 
+
+
+    [0.25010755222666936,
+     2.7502931836911926,
+     2.2321073814882277,
+     7.364712141640124,
+     6.766994874229113]
+
+
+
+
 ```python
 len(random_numbers)
 ```
+
+
+
+
+    5
+
+
 
 
 ```python
@@ -259,6 +293,9 @@ len(random_numbers)
 ceilings = [math.ceil(x) for x in random_numbers]
 print(ceilings)
 ```
+
+    [1, 3, 3, 8, 7]
+
 
 ### Python Comments
 
@@ -365,6 +402,13 @@ You can also check what type of object something is using the built in `type()` 
 ```python
 type(ceilings)
 ```
+
+
+
+
+    list
+
+
 
 ## Practice
 
